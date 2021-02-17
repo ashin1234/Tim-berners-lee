@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -22,7 +23,7 @@ body {
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
     width: 100%;
-    z-index:9;
+    z-index: 9;
     height: 100%;
 }
 
@@ -43,7 +44,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-   font-family: 'Satisfy', cursive;         
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -76,31 +77,44 @@ p {
 
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: sans-serif;
-    position:absolute;
-    top:10px;
-    right:30px;
-    z-index:10;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
     cursor: pointer;
 
 }
 
-.links{
+.links {
     float: left;
-    color:yellow;
+    color: yellow;
     padding-top: 5px;
-    padding-bottom:5px;
-    padding-left:9px;
-    padding-right:9px;
-    font-family:fantasy;
-    font-size:20px;
-    
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+
 }
 
 
-.links:hover{
-    background-color:darkblue;
+.links:hover {
+    background-color: darkblue;
 }
-    
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.article:hover {
+    color: dodgerblue;
+}
